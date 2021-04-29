@@ -1,0 +1,25 @@
+{
+  "name": "react-autocomplet-groupby",
+  "version": "0.1.0",
+  "private": false,
+  "author": "Appasaheb Lakade",
+  "license": "MIT",
+  "main":"index.ts",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "keywords": [
+    "react",
+    "autocomplete",
+    "autocomplete-groupby",
+    "tech-abl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appasaheb4/react-autocomplet-groupby.git"
+  },
+  "bugs": {
+    "url": "https://github.com/appasaheb4/react-autocomplet-groupby/issues"
+  },
+  "homepage": "https://github.com/appasaheb4/react-autocomplet-groupby#readme"
+ }
