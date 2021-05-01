@@ -1,13 +1,33 @@
-# How to use
+# React Autocomplet Groupby
+
+Easy search single array or array of array value.
+
+## Installation
 
 ```
-import * as LibraryComponents from "react-autocomplet-groupby"
-
-<LibraryComponents.Molecules.AutocompleteGroupBy
-                data={yourArray}
-              />
-
+npm i react-autocomplet-groupby
+or
+yarn add react-autocomplet-groupby
 ```
+
+## Usage
+
+This is format of input
+
+```jsx
+import * as LibraryComponents from 'react-autocomplet-groupby';
+const array: [
+  {
+    name: 'Collection',
+    title: 'Master Setup',
+    children: [{ name: 'Banner', title: 'Banner' }],
+  }
+];
+<LibraryComponents.Molecules.AutocompleteGroupBy data={array} />;
+```
+
+### Outputs
+
 <img src="https://github.com/appasaheb4/react-autocomplet-groupby/blob/main/assets/screen1.png">
 <img src="https://github.com/appasaheb4/react-autocomplet-groupby/blob/main/assets/screen2.png">
 
