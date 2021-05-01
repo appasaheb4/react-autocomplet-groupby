@@ -12,8 +12,6 @@ yarn add react-autocomplet-groupby
 
 ## Usage
 
-This is format of input
-
 ```jsx
 import * as LibraryComponents from 'react-autocomplet-groupby';
 const array: [

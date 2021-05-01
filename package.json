@@ -1,14 +1,14 @@
 {
   "name": "react-autocomplet-groupby",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "private": false,
   "author": "Appasaheb Lakade",
   "license": "MIT",
   "main": "index.ts",
   "scripts": {
-    "build": "rollup -c",
-    "start": "rollup -c -w"
-  },
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
   "dependencies": {
     "react": "^17.0.2"
   },
