@@ -1,6 +1,6 @@
 {
   "name": "react-autocomplet-groupby",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "private": false,
   "description": "Easy search single array or array of array value.",
   "types": "lib/index.d.ts",

@@ -1,4 +1,4 @@
-interface AutocompleteGroupByProps {
+export interface AutocompleteGroupByProps {
     data?: any[];
     onChange?: () => void;
     onClose?: () => void;

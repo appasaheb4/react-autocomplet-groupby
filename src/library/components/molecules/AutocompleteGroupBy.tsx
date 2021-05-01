@@ -1,7 +1,7 @@
 /* eslint-disable  */
 import React, { useState, useEffect } from 'react';
 
-interface AutocompleteGroupByProps {
+export interface AutocompleteGroupByProps {
   data?: any[];
   onChange?: () => void;
   onClose?: () => void;
