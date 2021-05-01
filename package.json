@@ -1,6 +1,6 @@
 {
   "name": "react-autocomplet-groupby",
-  "version": "0.1.18",
+  "version": "0.1.20",
   "private": false,
   "description": "Easy search single array or array of array value.",
   "types": "lib/index.d.ts",
@@ -19,6 +19,12 @@
   ],
   "peerDependencies": {
     "react": "*"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0"
   },
   "keywords": [
     "react",
