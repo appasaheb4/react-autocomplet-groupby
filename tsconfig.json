@@ -1,14 +1,18 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
     "target": "es6",
+    "outDir": "./lib",
     "declaration": true,
-    "outDir": "./dist",
-    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "module": "commonjs",
     "jsx": "react",
     "noImplicitAny": false
   },
-  "exclude": ["dist", "node_modules"]
+  "include": ["./src/**/*.ts","./src/**/*.tsx"],
+  "exclude": ["dist", "node_modules"],
+  "typeRoots": ["../node_modules/@types/index.d.ts"]
 }
