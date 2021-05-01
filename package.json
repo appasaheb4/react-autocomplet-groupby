@@ -1,6 +1,6 @@
 {
   "name": "react-autocomplet-groupby",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "private": false,
   "description": "Easy search single array or array of array value.",
   "types": "lib/index.d.ts",
@@ -17,8 +17,8 @@
   "files": [
     "lib"
   ],
-  "dependencies": {
-    "react": "^17.0.2"
+  "peerDependencies": {
+    "react": "*"
   },
   "keywords": [
     "react",
