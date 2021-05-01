@@ -8,8 +8,8 @@ export interface AutocompleteGroupByProps {
 }
 
 const AutocompleteGroupBy = (props: AutocompleteGroupByProps) => {
-  const [data, setData] = React.useState<any[]>();
-  const [options, setOptions] = React.useState<any[]>();
+  const [data, setData] = React.useState<any[]>([]);
+  const [options, setOptions] = React.useState<any[]>([]);
   React.useEffect(() => {
     setData(props.data);
     //setOptions(props.data)
