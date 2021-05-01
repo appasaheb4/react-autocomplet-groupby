@@ -1,5 +1,5 @@
 /* eslint-disable  */
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 export interface AutocompleteGroupByProps {
   data?: any[];
@@ -8,9 +8,9 @@ export interface AutocompleteGroupByProps {
 }
 
 const AutocompleteGroupBy = (props: AutocompleteGroupByProps) => {
-  const [data, setData] = useState<any[]>();
-  const [options, setOptions] = useState<any[]>();
-  useEffect(() => {
+  const [data, setData] = React.useState<any[]>();
+  const [options, setOptions] = React.useState<any[]>();
+  React.useEffect(() => {
     setData(props.data);
     //setOptions(props.data)
   }, [props]);
