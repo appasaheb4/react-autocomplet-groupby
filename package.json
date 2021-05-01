@@ -1,10 +1,11 @@
 {
   "name": "react-autocomplet-groupby",
-  "version": "0.1.20",
+  "version": "0.1.21",
   "private": false,
   "description": "Easy search single array or array of array value.",
   "types": "lib/index.d.ts",
-  "main": "lib",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
   "author": {
     "email": "onlyappasaheb4@gmail.com",
     "name": "Lakade Appasaheb",
@@ -12,10 +13,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc -p tsconfig.json & tsc -p tsconfig-cjs.json"
   },
   "files": [
-    "lib"
+    "lib/"
   ],
   "peerDependencies": {
     "react": "*"

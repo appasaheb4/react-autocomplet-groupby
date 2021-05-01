@@ -97,7 +97,7 @@ const AutocompleteGroupBy = (props: AutocompleteGroupByProps) => {
                             key={childrenIndex}
                             className="hover:bg-gray-200 focus:outline-none cursor-pointer"
                             onClick={async () => {
-                              console.log({ item });
+                              //console.log({ item });
                               setOptions([]);
                             }}
                           >
