@@ -12,16 +12,15 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
-},
-"files": [
-  "dist",
-  "LICENSE",
-  "README.md"
-],
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "dependencies": {
     "react": "^17.0.2"
   },
-  
   "keywords": [
     "react",
     "autocomplete",
@@ -35,5 +34,5 @@
   "bugs": {
     "url": "https://github.com/appasaheb4/react-autocomplet-groupby/issues"
   },
-  "homepage": "https://github.com/appasaheb4/react-autocomplet-groupby#readme",
+  "homepage": "https://github.com/appasaheb4/react-autocomplet-groupby#readme"
 }
